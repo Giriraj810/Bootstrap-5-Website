@@ -13,11 +13,18 @@
             crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/5b63d77276.js" crossorigin="anonymous"></script>
 
+        <style>
+            .fa-brands{
+                color: #fff;
+            
+            }
+            .fa-brands:hover{color: #696767};
+        </style>
     </head>
 
     <body>
 
-        <nav class="navbar sticky-top navbar-expand-lg bg-dark">
+        <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand col-2" href="#"><img src="gif.gif" alt="logo" class="w-100 h-100"/> </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -26,7 +33,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-between">
+                    <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-evenly">
                         <li class="nav-item">
                             <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
                         </li>
@@ -49,9 +56,9 @@
             </div>
         </nav>
 
-        <div class="alert " id="home" style="text-align: center;color:red;z-index: -1; background-color: #f8e0ad;"
+        <div class="py-3 fw-bold fs-3 text-center" id="home" style="color:red; background-color: #f8e0ad;"
             role="alert">
-            Chennai restaurant
+            CHENNAI RESTAURANT
         </div>
 
         <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
@@ -169,7 +176,7 @@
 
 
         <div class=" mb-5" id="services">
-            <div class="container-fluid border border-dark">
+            <div class="container-fluid">
                 <h2 class="text-center">Vegetarian</h2>
 
                 <div class="row">
@@ -205,14 +212,14 @@
                 <h2 class="text-center">Non-vegetarian</h2>
                 <div class="row">
                     <div class="col-12 col-md-4 col-sm-6">
-                        <img src="nv-1.jpg" class="w-100 h-100" alt="veg-1">
+                        <img src="nv-1.jpg" class="w-100 h-150" alt="veg-1">
 
                     </div>
                     <div class="col-12 col-md-4 col-sm-6">
-                        <img src="nv-2.jpg" class="w-100 h-100" alt="veg-2">
+                        <img src="nv-2.jpg" class="w-100 h-150" alt="veg-2">
                     </div>
                     <div class="col-12 col-md-4 col-sm-6">
-                        <img src="nv-3.jpg" class="w-100 h-100" alt="veg-3">
+                        <img src="nv-3.jpg" class="w-100 h-150" alt="veg-3">
 
                     </div>
                     <div class="col-12 col-md-4 col-sm-6">
@@ -290,49 +297,18 @@
 
 
                 </div>
-                <div class="pt-5 rounded bg-primary text-white">
-                    <h4>Contact Us</h4>
-
-                    <div style="display: flex;">
-
-                        <i class="fa fa-map-marker fs-4  px-2 bg-danger rounded-circle py-2"></i>
-                        </i>
-                        <address style="font-size: 16px;font-weight: 600;color: white;">B 211, 11th Ave, 11th
-                            Avenue,
-                            Mettuppalayam, Ashok Nagar, Chennai, Tamil Nadu 600083</address>
-                    </div>
-                    <div>
-                        <a href="tel:+91997659429" style="display: flex;">
-                            <i class="fa fa-phone"
-                                style="font-size: 18px;padding: 15px 17px;
-                                                                            margin: 0 15px 70px 0; background-color: #4f97f5;border-radius:50% ;color: white;"></i>
-                            <p style="font-size: 16px;font-weight: 600;color: white;">Phone: +91 99765 94629</p>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="mailto:giriraj6554@gmail.com" class="d-flex">
-                            <i class="fa fa-envelope"
-                                style="font-size: 18px;padding: 15px 17px;
-                                                                            margin: 0 15px 70px 0; background-color: #4f97f5;border-radius:50% ;color: white;"></i>
-                            <p class="fw-semibold text-white fs-base">giriraj6554@gmail.com</p>
-                        </a>
-                    </div>
-
-                </div>
-
-
-
+               
             </div>
 
         </div>
-        <footer>
+        <footer class="bg-dark mt-3">
             <div class="row">
-                <div class="fs-1 d-flex justify-content-center">
-                    <i class="fa-brands fa-facebook" style="color: #696767;"></i>
-                    <i class="fa-brands fa-discord" style="color: #696767;"></i>
+                <div class="fs-1 d-flex justify-content-evenly my-3">
+                    <a href="https://www.facebook.com/login"><i class="fa-brands fa-facebook" ></i></a>
+                    <a href="https://www.discord.com/login"><i class="fa-brands fa-discord" ></i></a>
 
-                    <i class="fa-brands fa-whatsapp" style="color: #696767;"></i>
-                    <i class="fa-brands fa-instagram" style="color: #696767;"></i>
+                    <a href="https://web.whatsapp.com/login"><i class="fa-brands fa-whatsapp" ></i></a>
+                    <a href="https://www.instagram.com/login"><i class="fa-brands fa-instagram" ></i></a>
                 </div>
             </div>
         </footer>
