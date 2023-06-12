@@ -243,7 +243,7 @@
         </div>
         <div class="container" id="contact">
             <div class="row d-flex justify-content-center">
-                <form class="col-12 col-md-6 py-3">
+                <form class="col-12 col-md-6 py-3" action="https:/httpbin.org/get" method="get">
                     <div class="row">
                         <div class="col">
                             <label for="name" class="form-label">Name</label>
@@ -259,11 +259,11 @@
 
                     <div class="mb-3">
                         <label for="subject" class="form-label">Subject</label>
-                        <input type="text" class="form-control" id="subject">
+                        <input type="text" class="form-control" id="subject" name="subject">
                     </div>
                     <div class="mb-3">
                         <label for="message" class="form-label">Message</label>
-                        <textarea class="form-control" id="message" rows="3"></textarea>
+                        <textarea class="form-control" name="message" id="message" rows="3"></textarea>
                     </div>
 
                     <button type="submit" class="btn btn-primary">Submit</button>
